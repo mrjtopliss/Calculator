@@ -1,0 +1,153 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  min-height: 100%;
+  background-image: url("https://i.pinimg.com/originals/17/ff/88/17ff8896ddde4b1a8de9c0230d77b487.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+main {
+  width: 400px;
+  height: 500px;
+  box-shadow: 5px 5px 15px #e7bce7;
+}
+
+#display-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20%;
+  color: #000000;
+  background-color: #7697c7;
+  opacity: 0.75;
+}
+
+#display {
+  margin: 10px 20px 10px 10px;
+  font-size: 50px;
+}
+
+#buttons-container {
+  height: 80%;
+}
+
+#operators {
+  display: flex;
+  height: 20%;
+}
+
+.oper-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid grey;
+  background-color: #e2c2e2;
+  width: 25%;
+  font-size: 25px;
+  opacity: 0.75;
+  font-weight: bold;
+}
+
+.oper-buttons:hover {
+  cursor: pointer;
+}
+
+.oper-buttons:active {
+  cursor: pointer;
+  background-color: #cf83c3;
+}
+
+#numberpad {
+  display: flex;
+  height: 80%;
+}
+
+#num-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 75%;
+}
+
+.num {
+  display: flex;
+  border: 1px solid grey;
+  width: 32.65%;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: #94dbca;
+  opacity: 0.75;
+}
+
+.num:hover {
+  cursor: pointer;
+}
+
+.num:active {
+  cursor: pointer;
+  background-color: #64cab2;
+}
+
+#equals-container {
+  width: 25%;
+}
+
+#equals {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid grey;
+  height: 99.5%;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: #d8da88;
+  opacity: 0.75;
+}
+
+#equals:hover {
+  cursor: pointer;
+}
+
+#equals:active {
+  cursor: pointer;
+  background-color: #bbbd43;
+}
+
+#equals:focus {
+  outline: none;
+}
+#gh-logo {
+  width: 20px;
+  height: 20px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #e97d7d;
+  opacity: 0.75;
+  width: 250px;
+  position: absolute;
+  bottom: 5px;
+  font-size: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
+  justify-items: center;
+}

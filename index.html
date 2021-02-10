@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="darkStyle.css" />
+    <title>Calculator</title>
+  </head>
+  <body class="body">
+    <main>
+      <div id="display-container">
+        <div id="display">0</div>
+      </div>
+      <div id="buttons-container">
+        <div id="operators">
+          <div id="+" class="oper-buttons">+</div>
+          <div id="-" class="oper-buttons">-</div>
+          <div id="x" class="oper-buttons">x</div>
+          <div id="/" class="oper-buttons">/</div>
+        </div>
+        <div id="numberpad">
+          <div id="num-container">
+            <div id="7" class="num buttons">7</div>
+            <div id="8" class="num buttons">8</div>
+            <div id="9" class="num buttons">9</div>
+            <div id="4" class="num buttons">4</div>
+            <div id="5" class="num buttons">5</div>
+            <div id="6" class="num buttons">6</div>
+            <div id="1" class="num buttons">1</div>
+            <div id="2" class="num buttons">2</div>
+            <div id="3" class="num buttons">3</div>
+            <div id="0" class="num buttons">0</div>
+            <div id="." class="num decimal">.</div>
+            <div id="clear" class="num">AC</div>
+          </div>
+          <div id="equals-container">
+            <div id="equals">=</div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div class="lightdark">
+      <p>Light &nbsp;&nbsp;</p>
+      <label class="switch">
+        <input type="checkbox" onclick="switchColor()" />
+        <span class="slider round"></span>
+      </label>
+      <p>&nbsp;&nbsp; Dark</p>
+    </div>
+    <footer>
+      Made by:
+      <img
+        id="gh-logo"
+        src="https://image.flaticon.com/icons/png/512/25/25231.png"
+        alt="github logo"
+      /><a href="https://github.com/mrjtopliss"> Jordy Boy </a>
+    </footer>
+
+    <script src="app.js"></script>
+    <script src="mathFunctions.js"></script>
+    <script src="darkMode.js"></script>
+  </body>
+</html>
